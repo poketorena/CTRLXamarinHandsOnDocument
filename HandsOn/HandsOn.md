@@ -444,7 +444,8 @@ ItemSelectedCommand = new DelegateCommand<Memo>(ExecuteItemSelected);
 ### ExecuteItemSelectedメソッドを作る
 
 引数付き画面遷移のコードを書いていきます。  
-まずは下のようにメソッドを作りましょう。
+
+// ここにプライベート関数を追加というコメントの下にExecuteItemSelectedという名前のメソッドを作りましょう。
 
 ```csharp
 private void ExecuteItemSelected(Memo memo)
